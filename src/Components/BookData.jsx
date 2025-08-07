@@ -3,6 +3,7 @@ const booksData = [
     bookId: 1,
     bookTitle: "Our Wives Under The Sea",
     bookAuthor: "Julia Armfield",
+    authorId: 1,
     bookPubYear: 2022,
     bookSynopsis:
       "A woman grapples with the mysterious and unsettling changes in her wife after she returns from a deep-sea mission gone wrong.",
@@ -14,6 +15,7 @@ const booksData = [
     bookId: 2,
     bookTitle: "Private Rites",
     bookAuthor: "Julia Armfield",
+    authorId: 1,
     bookPubYear: 2024,
     bookSynopsis:
       "Three estranged queer sisters reunite following the death of their architecht father, confronting their fraught inheritance, their fractured relationships, and haunting revelations from their past.",
@@ -25,6 +27,7 @@ const booksData = [
     bookId: 3,
     bookTitle: "The Girls",
     bookAuthor: "Emma Cline",
+    authorId: 2,
     bookPubYear: 2016,
     bookSynopsis:
       "14‑year‑old Evie Boyd becomes mesmerized by a free‑spirited group of girls in late‑1960s California and is drawn into their Manson‑like cult.",
@@ -36,6 +39,7 @@ const booksData = [
     bookId: 4,
     bookTitle: "The Guest",
     bookAuthor: "Emma Cline",
+    authorId: 2,
     bookPubYear: 2023,
     bookSynopsis:
       "A young woman gets kicked out of a rich man’s house in the Hamptons and spends a tense week trying to stay afloat without a plan.",
@@ -47,6 +51,7 @@ const booksData = [
     bookId: 5,
     bookTitle: "Such Sharp Teeth",
     bookAuthor: "Rachel Harrison",
+    authorId: 3,
     bookPubYear: 2022,
     bookSynopsis:
       "A woman who bitten by a werewolf and has to deal with turning into a monster while facing old traumas and helping her sister.",
@@ -58,6 +63,7 @@ const booksData = [
     bookId: 6,
     bookTitle: "Black Sheep",
     bookAuthor: "Rachel Harrison",
+    authorId: 3,
     bookPubYear: 2023,
     bookSynopsis:
       "A woman estranged from her cult-like family returns home for a wedding and uncovers dark secrets.",
@@ -69,6 +75,7 @@ const booksData = [
     bookId: 7,
     bookTitle: "So Thirsty",
     bookAuthor: "Rachel Harrison",
+    authorId: 3,
     bookPubYear: 2024,
     bookSynopsis:
       "Two best friends go on a girls’ trip that takes a terrifying turn when they meet a group of strange and very thristy strangers.",
@@ -80,6 +87,7 @@ const booksData = [
     bookId: 8,
     bookTitle: "This Thing Between Us",
     bookAuthor: "Gus Moreno",
+    authorId: 4,
     bookPubYear: 2021,
     bookSynopsis:
       "A grieving husband is haunted by a strange smart speaker and a growing sense that something evil is following him.",
@@ -91,6 +99,7 @@ const booksData = [
     bookId: 9,
     bookTitle: "A Head Full of Ghosts",
     bookAuthor: "Paul Tremblay",
+    authorId: 5,
     bookPubYear: 2015,
     bookSynopsis:
       "A teenage girl may be possessed as her family turns her struggle into a reality TV show.",
@@ -102,6 +111,7 @@ const booksData = [
     bookId: 10,
     bookTitle: "The Cabin At The End of the World",
     bookAuthor: "Paul Tremblay",
+    authorId: 5,
     bookPubYear: 2018,
     bookSynopsis:
       "A family’s peaceful vacation is shattered when strangers arrive, claiming the world will end unless they make an unthinkable choice.",
@@ -113,6 +123,7 @@ const booksData = [
     bookId: 11,
     bookTitle: "The Pallbears Club",
     bookAuthor: "Paul Tremblay",
+    authorId: 5,
     bookPubYear: 2022,
     bookSynopsis:
       "A man writes a memoir about his strange teenage friendship with a girl who might be a vampire, while she adds her own notes to challenge his story.",
@@ -124,6 +135,7 @@ const booksData = [
     bookId: 12,
     bookTitle: "Horror Movie",
     bookAuthor: "Paul Tremblay",
+    authorId: 5,
     bookPubYear: 2024,
     bookSynopsis:
       "A screenwriter looks back on the cursed indie horror film he made in the '90s and the terrifying things that followed.",
@@ -135,6 +147,7 @@ const booksData = [
     bookId: 13,
     bookTitle: "Wanderers",
     bookAuthor: "Chuck Wendig",
+    authorId: 6,
     bookPubYear: 2019,
     bookSynopsis:
       "When a mysterious sleepwalking plague spreads across America, a group of strangers must protect the walkers and uncover the truth behind it.",
@@ -146,6 +159,7 @@ const booksData = [
     bookId: 14,
     bookTitle: "The Book of Accidents",
     bookAuthor: "Chuck Wendig",
+    authorId: 6,
     bookPubYear: 2021,
     bookSynopsis:
       "An unsuspecting father moves back to his childhood home full of dark memories, only to face supernatural forces tied to trauma and evil.",
@@ -157,6 +171,7 @@ const booksData = [
     bookId: 15,
     bookTitle: "Black River Orchard",
     bookAuthor: "Chuck Wendig",
+    authorId: 6,
     bookPubYear: 2023,
     bookSynopsis:
       "A cursed apple orchard tempts a town with beauty and power, but it comes at a horrifying cost.",
@@ -168,6 +183,7 @@ const booksData = [
     bookId: 16,
     bookTitle: "The Staircase in the Woods",
     bookAuthor: "Chuck Wendig",
+    authorId: 6,
     bookPubYear: 2025,
     bookSynopsis:
       "They lost a friend to a strange staircase in the woods as teens, and now, as adults, they’re determined to find out where he went.",
