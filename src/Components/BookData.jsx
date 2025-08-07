@@ -170,7 +170,7 @@ const booksData = [
     bookAuthor: "Chuck Wendig",
     bookPubYear: 2025,
     bookSynopsis:
-      "They lost a friend to a strange staircase in the woods as teens, and now, as adults, it’s returned, and they’re determined to find out where it leads.",
+      "They lost a friend to a strange staircase in the woods as teens, and now, as adults, they’re determined to find out where he went.",
     bookCoverImage: "/cover-images/Wendig4.jpg",
     bookBuyLink:
       "https://www.barnesandnoble.com/w/the-staircase-in-the-woods-chuck-wendig/1146072187?ean=9780593156568",

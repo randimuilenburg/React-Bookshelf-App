@@ -1,8 +1,50 @@
 const authorsData = [
-    {
-       authorId: 
-       authorName:
-       authorPhoto:
-       authorBio:
-    },
-]
+  {
+    authorId: 1,
+    authorName: "Julia Armfield",
+    authorPhoto: "/bio-images/ArmfieldBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2019,
+    authorWebsite: "https://www.juliaarmfield.co.uk/",
+  },
+  {
+    authorId: 2,
+    authorName: "Emma Cline",
+    authorPhoto: "/bio-images/ClineBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2016,
+    authorWebsite: "https://www.emmacline.com/",
+  },
+  {
+    authorId: 3,
+    authorName: "Rachel Harrison",
+    authorPhoto: "/bio-images/HarrisonBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2020,
+    authorWebsite: "https://www.rachel-harrison.com/",
+  },
+  {
+    authorId: 4,
+    authorName: "Gus Moreno",
+    authorPhoto: "/bio-images/MorenoBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2021,
+    authorWebsite: "https://www.gusmoreno.com/",
+  },
+  {
+    authorId: 5,
+    authorName: "Paul Tremblay",
+    authorPhoto: "/bio-images/TremblayBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2009,
+    authorWebsite: "https://www.paultremblay.net/",
+  },
+  {
+    authorId: 6,
+    authorName: "Chuck Wendig",
+    authorPhoto: "/bio-images/WendigBio.jpg",
+    authorBio: "Author bio goes here!",
+    authorDebutYear: 2011,
+    authorWebsite: "https://terribleminds.com/",
+  },
+];
