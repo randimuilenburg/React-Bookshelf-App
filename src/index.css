@@ -1,3 +1,22 @@
+/* body {
+  margin: 0;
+} */
+
+/* NAVBAR */
+.navbar .me-auto {
+  background-color: #36454F
+}
+
+.navbar {
+  background-color: #36454F;
+  color: #f2f2f2; 
+}
+
+
+.navbar .link {
+color: white;
+}
+
 /* HEADER */
 .header {
   text-align: center;
