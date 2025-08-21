@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
+import DropdownAuthors from "./Components/DropdownAuthors";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* <h1>Author Book Project</h1> */}
       <Navigation />
       <Header />
+      <DropdownAuthors />
     </div>
   );
 }

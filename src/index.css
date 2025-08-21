@@ -26,4 +26,10 @@
 }
 
 /* DROPDOWN */
-
+.dropdown {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+}
