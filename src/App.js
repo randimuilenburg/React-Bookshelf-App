@@ -1,12 +1,13 @@
 import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
 import DropdownAuthors from "./Components/DropdownAuthors";
+import AppRoutes from "./Components/AppRoutes";
 
 function App() {
   return (
     <div>
-      {/* <h1>Author Book Project</h1> */}
-      <Navigation />
+      <AppRoutes />
+      {/* <Navigation /> */}
       <Header />
       <DropdownAuthors />
     </div>

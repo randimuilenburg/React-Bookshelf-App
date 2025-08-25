@@ -1,4 +1,5 @@
 import { Dropdown } from "react-bootstrap";
+import { useState } from "react";
 
 function AuthorDropdown() {
   return (
@@ -11,7 +12,7 @@ function AuthorDropdown() {
         <Dropdown.Menu>
           <Dropdown.Item>Julia Armfield</Dropdown.Item>
           <Dropdown.Item>Emma Cline</Dropdown.Item>
-          <Dropdown.Item>Option 3</Dropdown.Item>
+          <Dropdown.Item>Adding more...</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </div>
