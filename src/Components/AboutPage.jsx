@@ -1,8 +1,8 @@
 function AboutPage() {
   return (
     <div>
-      <h3 className="aboutpage-h">Welcome to Stranger Reads!</h3>
-      <p className="aboutpage-p">
+      <h2 className="info-h">Welcome to Stranger Reads!</h2>
+      <p className="info-p">
         With a group of 10 to 14 members, we meet for two hours on the first
         Monday of every month to discuss novels that are unusual,
         thought-provoking, and outside the ordinary. Our selections emphasize
@@ -10,7 +10,7 @@ function AboutPage() {
         experimental styles, or complex ideas, ensuring each conversation is
         lively and engaging.
       </p>
-      <p className="aboutpage-p">
+      <p className="info-p">
         Equally important, Stranger Reads is about community. We value not only
         great book discussion but also the friendships and connections built
         along the way. By uplifting diverse voices and exploring a wide range of

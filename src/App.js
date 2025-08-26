@@ -1,6 +1,4 @@
-import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
-import DropdownAuthors from "./Components/DropdownAuthors";
 import AppRoutes from "./Components/AppRoutes";
 
 function App() {
@@ -8,8 +6,6 @@ function App() {
     <div>
       <Navigation />
       <AppRoutes />
-      {/* <Header /> */}
-      {/* <DropdownAuthors /> */}
     </div>
   );
 }

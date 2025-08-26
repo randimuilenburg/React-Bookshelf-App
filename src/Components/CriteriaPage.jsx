@@ -1,7 +1,8 @@
 function Criteria() {
   return (
     <>
-      <p className="criteria-p">
+      <h2 className="info-h">How do we select a book?</h2>
+      <p className="info-p">
         Stranger Reads is a book club dedicated exclusively to fiction, with a
         focus on titles that expand our sense of what storytelling can do. Our
         criteria for selection focuses on works that are innovative, unusual, or
@@ -11,7 +12,7 @@ function Criteria() {
         encourage discussion that feels academic and engaging.
       </p>
 
-      <p className="criteria-p">
+      <p className="info-p">
         A key part of our approach is choosing books that encourage deeper
         reflection. We look for fiction that raises meaningful questions about
         society, culture, and the human experience. These kinds of stories allow
@@ -19,7 +20,7 @@ function Criteria() {
         assumptions and broaden our world view.
       </p>
 
-      <p className="criteria-p">
+      <p className="info-p">
         We also make it a priority to uplift diverse voices. Stranger Reads
         intentionally includes works by authors from a variety of backgrounds,
         ensuring that our reading list reflects a wide spectrum of lived

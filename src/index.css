@@ -35,4 +35,19 @@
 }
 
 
-/* NAVBAR - ABOUT PAGE */
+/* NAVBAR - ABOUT, CRITERIA, CASE STUDY PAGES */
+.info-h {
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 15px;
+}
+
+.info-p {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
