@@ -6,10 +6,10 @@ import AppRoutes from "./Components/AppRoutes";
 function App() {
   return (
     <div>
+      <Navigation />
       <AppRoutes />
-      {/* <Navigation /> */}
-      <Header />
-      <DropdownAuthors />
+      {/* <Header /> */}
+      {/* <DropdownAuthors /> */}
     </div>
   );
 }
