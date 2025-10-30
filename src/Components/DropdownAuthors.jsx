@@ -1,20 +1,34 @@
 import { Dropdown } from "react-bootstrap";
-import { useState } from "react";
+import React, { useState } from "react";
+import AuthorsData from "./AuthorsData";
 
-function AuthorDropdown() {
+function AuthorDropdown({ onChange }) {
+  const [selected, setSelected] = useState(null);
+
+  const handleSelect = (eventKey) => {
+    setSelected(eventKey);
+    onChange?.(eventKey);
+  };
   return (
     <div className="dropdown">
-      <Dropdown>
+      {/* <Dropdown> */}
+      <Dropdown onSelect={handleSelect}>
         <Dropdown.Toggle variant="light" id="dropdown-basic">
-          Make a Selection
+          {selected || "Make a Selection"}
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item>Julia Armfield</Dropdown.Item>
-          <Dropdown.Item>Emma Cline</Dropdown.Item>
-          <Dropdown.Item>Adding more...</Dropdown.Item>
+          {AuthorsData.map((author) => (
+            <Dropdown.Item key={author.authorId} eventKey={author.authorName}>
+              {author.authorName}
+            </Dropdown.Item>
+          ))}
+
+          {/* <Dropdown.Item>Emma Cline</Dropdown.Item>
+            <Dropdown.Item>Adding more...</Dropdown.Item> */}
         </Dropdown.Menu>
       </Dropdown>
+      {/* </Dropdown> */}
     </div>
   );
 }

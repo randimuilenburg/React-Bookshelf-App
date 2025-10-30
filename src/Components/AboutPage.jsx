@@ -15,8 +15,7 @@ function AboutPage() {
         great book discussion but also the friendships and connections built
         along the way. By uplifting diverse voices and exploring a wide range of
         perspectives, we create space for meaningful dialogue and lasting
-        relationships, making our meetings both intellectually stimulating and
-        socially rewarding.
+        relationships, making our meetings both intellectual and social.
       </p>
     </div>
   );

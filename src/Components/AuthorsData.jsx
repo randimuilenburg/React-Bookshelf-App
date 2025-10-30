@@ -54,3 +54,5 @@ const authorsData = [
     authorWebsite: "https://terribleminds.com/",
   },
 ];
+
+export default authorsData;
