@@ -23,12 +23,8 @@ function AuthorDropdown({ onChange }) {
               {author.authorName}
             </Dropdown.Item>
           ))}
-
-          {/* <Dropdown.Item>Emma Cline</Dropdown.Item>
-            <Dropdown.Item>Adding more...</Dropdown.Item> */}
         </Dropdown.Menu>
       </Dropdown>
-      {/* </Dropdown> */}
     </div>
   );
 }
