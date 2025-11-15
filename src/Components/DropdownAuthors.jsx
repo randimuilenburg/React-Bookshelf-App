@@ -11,12 +11,10 @@ function AuthorDropdown({ onChange }) {
   };
   return (
     <div className="dropdown">
-      {/* <Dropdown> */}
       <Dropdown onSelect={handleSelect}>
         <Dropdown.Toggle variant="light" id="dropdown-basic">
-          {selected || "Make a Selection"}
+          {selected || "Select an Author:"}
         </Dropdown.Toggle>
-
         <Dropdown.Menu>
           {AuthorsData.map((author) => (
             <Dropdown.Item key={author.authorId} eventKey={author.authorName}>
